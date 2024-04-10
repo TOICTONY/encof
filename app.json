@@ -1,0 +1,29 @@
+{ 
+    "name": "TGLF", 
+    "description": "This Bot Can Do auto leech", 
+    "repository": "https://github.com/TOICTONY/TGLF", 
+    "keywords": ["auto","Leech","telegram bot"], 
+    "env": { 
+        "BOT_TOKEN": { 
+            "description": "Your Bot token from @Botfather", 
+            "required": false 
+        }, 
+        "API_ID": { 
+            "description": "Your API_ID from https://my.telegram.org/apps", 
+            "required": true 
+        }, 
+        "API_HASH": { 
+            "description": "Your API_HASH from https://my.telegram.org/apps", 
+            "required": true 
+        }, 
+        "USER_SESSION": { 
+            "description": "Your USER_SESSION from string Bots", 
+            "required": false 
+        } 
+    }, 
+    "buildpacks": [ 
+        { 
+            "url": "heroku/python" 
+        } 
+    ] 
+}
